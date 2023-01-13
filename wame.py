@@ -40,7 +40,7 @@ def first():
     chrome_options = Options()
     chrome_options.add_experimental_option("detach", True)
     chrome = webdriver.Chrome() #options=chrome_options)
-    chrome.get('https://api.whatsapp.com/send?phone=+2348140455828&text=hello testing')
+    chrome.get('https://api.whatsapp.com/send?phone=+234812345678&text=hello testing')
     url = chrome.command_executor._url       #"http://127.0.0.1:60622/hub"
     session_id = chrome.session_id  
     #chrome.find_element()
@@ -49,11 +49,6 @@ def first():
     print(chrome)
 
 
-
-
-
-
-#'+234 813 293 5554': 'Dr. Etiese Akpan Etuk', '??': 'Femi Odumabo ','+234 703 341 1961': 'Dr. Waheed-Adekojo Funmilayo Mary FNSE', '+234 803 511 4020': 'David, Gabby Okwudiri', '+234 803 343 6395': 'Ajibola Olubisi Isaac', '+234 803 311 1676': 'Samtanye Yerima Balla Dr(HC)', '+234 805 543 7330': 'Qaribullah A. Arabi', '+234 803 578 9986': 'BARR. CHUKWUEMEKA IFEANYI M. UMEORA', '+234 802 359 7526': 'Adeosun Edward Oludayo,', '+234 813 024 7447': 'Usman Aleshinloye', 
 
 
 def second():
